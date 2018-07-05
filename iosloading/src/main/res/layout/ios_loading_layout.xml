@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ll_bg"
-    android:layout_width="100px"
-    android:layout_height="100px"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="@drawable/ios_loading_bg_shape"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="15dp">
 
     <ProgressBar
         android:layout_width="wrap_content"
@@ -18,9 +18,11 @@
         android:id="@+id/tv_loading_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20px"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
         android:text="加载中.."
         android:textColor="#ffffff"
-        android:textSize="26px"
-        android:visibility="gone" />
+        android:textSize="12sp"
+        android:visibility="visible" />
 </LinearLayout>
