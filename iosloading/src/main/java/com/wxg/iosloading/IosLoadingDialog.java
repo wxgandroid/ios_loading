@@ -3,7 +3,6 @@ package com.wxg.iosloading;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
-import android.support.annotation.NonNull;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,11 +16,11 @@ import android.view.ViewGroup;
 public class IosLoadingDialog extends Dialog {
 
 
-    private IosLoadingDialog(@NonNull Context context) {
+    private IosLoadingDialog(Context context) {
         this(context, android.R.style.Theme_Holo_Dialog_NoActionBar);
     }
 
-    private IosLoadingDialog(@NonNull Context context, int themeResId) {
+    private IosLoadingDialog(Context context, int themeResId) {
         super(context, themeResId);
     }
 
