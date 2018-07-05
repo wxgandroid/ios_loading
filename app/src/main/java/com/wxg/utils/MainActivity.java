@@ -5,8 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.wxg.iosloading.IosLoadingDialog;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn_test;
@@ -27,10 +25,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_test:
-                IosLoadingDialog dialog = new IosLoadingDialog.Builder(this)
-                        .setCancelOnTouchOutsite(true)
-                        .build();
-                dialog.show();
+//                IosLoadingDialog dialog = new IosLoadingDialog.Builder(this)
+//                        .setCancelOnTouchOutsite(true)
+//                        .build();
+//                dialog.show();
                 break;
             default:
                 break;
