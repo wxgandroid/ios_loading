@@ -11,7 +11,7 @@ allprojects {
 ## 2.在module的build.gradle中添加
 `
 dependencies {
-	       implementation 'com.github.wxgandroid:iosloading:v1.1'
+	       implementation 'com.github.wxgandroid:ios_loading:v1.0'
 	}
 `
 ## 3.代码中使用
